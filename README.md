@@ -1,2 +1,2 @@
 # st
-Simple(suckless) Terminal st.
+Simple(suckless) Terminal st. 
