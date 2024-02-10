@@ -106,7 +106,7 @@ static const char *colorname[] = {
     [7] = "#bbbbbb", /* white   */
                                   
     /* 8 bright colors */
-    [8]  = "#282a36", /* black   */
+    [8]  = "#44475a", /* black   */
     [9]  = "#ff5555", /* red     */
     [10] = "#50fa7b", /* green   */
     [11] = "#f1fa8c", /* yellow  */
@@ -120,7 +120,7 @@ static const char *colorname[] = {
     [257] = "#f8f8f2", /* foreground */
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
+	"#404040",
 	"#555555",
 	"gray90", /* default foreground colour */
 	"black", /* default background colour */
@@ -151,7 +151,7 @@ unsigned int defaultunderline = 7;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 4;
 
 /*
  * Default columns and rows numbers
